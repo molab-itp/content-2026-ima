@@ -129,6 +129,7 @@ consider doing over the next weeks in parallel with our course. pick one.
   - project based, select the project(s) that you find interesting
 
 - [Stanford University: CS193p - Developing Apps for iOS](https://cs193p.sites.stanford.edu/)
+  - [youtube playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rPHblRXKsJCQs8TLGpiCTrG)
 
 ## Github Resources
 
