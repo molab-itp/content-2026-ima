@@ -152,6 +152,8 @@ node_modules
 
 ## Homework Week02
 
+- bring iphone cable and (optional) headphones
+
 - continue learning Swift programming fundamentals and document your progress on your wiki page
 
 - create a folder named Week02 in your class repo to store this weeks homework
