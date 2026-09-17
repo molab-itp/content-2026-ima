@@ -2,14 +2,6 @@
 
 ## [[Previous](./02_swift.md)] [[Next](./04_swiftui.md)]
 
-<!--
-## Resource checkin
-- [Apple Swift Docs - developer](https://developer.apple.com/documentation/swift)
-- [Apple Swift Docs - A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
-- [linkedin swift-5-essential-training ](https://www.linkedin.com/learning/swift-5-essential-training)
-- [Ray Wenderlich - your-first-ios-swiftui-app](https://www.raywenderlich.com/28797163-your-first-ios-swiftui-app-an-app-from-scratch)
--->
-
 ## Plan
 
 - review homework
@@ -32,12 +24,14 @@ remove duplicate
   - [31 Xcode Tips & Tricks - 2023](https://www.youtube.com/watch?v=40imnmzsmxk&list=PL8seg1JPkqgEM8oeVghYq_-Go1pVhTGko&index=3)
   - [Xcode + ChatGPT - 2024](https://www.youtube.com/watch?v=zhRyjt6jwPs)
 
-## Resources (from last week)
+## Swift Basic Review
 
 - [markdownguide quick summary](https://www.markdownguide.org/cheat-sheet/)
-
 - [Swift The Basics - docs.swift.org](https://docs.swift.org/latest/documentation/the-swift-programming-language/thebasics)
+- [closures](https://docs.swift.org/latest/documentation/the-swift-programming-language/closures)
 - [Optionals](https://docs.swift.org/latest/documentation/the-swift-programming-language/thebasics/#Optionals)
+- [Enumerations](https://docs.swift.org/latest/documentation/the-swift-programming-language/enumerations)
+- [Computed-Properties](https://docs.swift.org/latest/documentation/the-swift-programming-language/properties#Computed-Properties)
 
 <!--
 ## Othe Swift Language Resources
@@ -46,10 +40,17 @@ remove duplicate
 - [swift-cookbook](https://www.kodeco.com/books/swift-cookbook/v1.0/)
 -->
 
-## Test Your Swift Skills
+## Practice Your Swift Programming Skills
 
 - [unwrap app](https://apps.apple.com/us/app/unwrap/id1440611372)
-- works on iPhone iOS and macOS desktops with Apple silicon
+  - works on iPhone iOS and macOS desktops with Apple silicon
+- [00-molab-2026-jht](https://github.com/molab-itp/00-molab-2026-jht)
+  - playgrounds with TRY: challenges exercises
+  - solutions in z-TRIED folder
+  - watch out for playground anomlies
+    - other pages may execute
+    - variables must be set before used
+    - show results to see any failures
 
 ## Playground review
 
@@ -58,7 +59,47 @@ remove duplicate
 
 ## SwiftUI Resources
 
+### Getting start with SwiftUI
+
+**Hacking path**
+
+- [tutorial: Understanding the basic structure of a SwiftUI app](https://www.hackingwithswift.com/books/ios-swiftui/understanding-the-basic-structure-of-a-swiftui-app)
+- [hackingwithswift 100 days](https://www.hackingwithswift.com/100/swiftui)
+  Days 16-18: Starting SwiftUI - Project 1 - We Split - Intro to SwiftUI
+- source: https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI/project1
+- [03-WeSplit](https://github.com/molab-itp/03-WeSplit)
+
+**Apple path**
+
 - [apple documentation swiftui](https://developer.apple.com/documentation/swiftui/)
+- [swiftui/get-started](https://developer.apple.com/swiftui/get-started/)
+
+## State Counter App Build along
+
+- in class exercise
+- let build 03-counter-state
+  - Intro to state management with @State
+  - Example of using enums
+
+## SwiftUI Example Repo
+
+**build to simulator and to your device**
+
+- [03-About-Me](https://github.com/molab-itp/03-About-Me)
+  - https://developer.apple.com/tutorials/sample-apps/aboutme
+  - using SwiftUI to display information across multiple tab views
+- [03-ImageUiDemo-1-symbols](https://github.com/molab-itp/03-ImageUiDemo-1-symbols)
+  - Using Image systemName symbols to demonstrate SwiftUI
+- [03-ImageUiDemo-2-urls](https://github.com/molab-itp/03-ImageUiDemo-2-urls)
+  - Using NavigationView to create list of images references using URL
+- [03-Canvas-Explore](https://github.com/molab-itp/03-Canvas-Explore)
+  - explore SwiftUI Canvas and TimelineView for computed graphic animation
+- [03-UIGraphics-View](https://github.com/molab-itp/03-UIGraphics-View)
+  - Display a computed image in SwiftUI View using UIGraphicsImageRenderer
+- [03-ClockRemake](https://github.com/molab-itp/03-ClockRemake)
+  - Using Canvas to recreate the design used for the Clock app
+
+### SwiftUI full documentation and examples
 
 **From Apple WWDC 2019 - the birth of SwiftUI**
 
@@ -71,7 +112,7 @@ remove duplicate
 - https://developer.apple.com/videos/play/wwdc2019/226/
   - Data Flow Through SwiftUI ~37min
 
-** From Apple pre-2027 - the middles ages of SwiftUI - **
+**From Apple pre-2027 - the middles ages of SwiftUI**
 
 - [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui)
   - complete up to but not including [interfacing-with-uikit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit) - 4hr 25min Estimated Time
@@ -95,97 +136,39 @@ remove duplicate
   - https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI/project1
 - Project 14: Bucket List
   - https://www.hackingwithswift.com/books/ios-swiftui/bucket-list-introduction
-  - https://www.hackingwithswift.com/books/ios-swiftui/writing-data-to-the-documents-directory - reading and writing JSON to local storage - using MapKit - source:
-    https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI/project14/Bucketlist
-- https://www.hackingwithswift.com/100/swiftui
-  - 19 projects -- looks like projects are saved with above
+  - https://www.hackingwithswift.com/books/ios-swiftui/writing-data-to-the-documents-directory
+    - reading and writing JSON to local storage - using MapKit - source:
+    - https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI/project14/Bucketlist
+- **https://www.hackingwithswift.com/100/swiftui**
+  - 19 projects -- looks like projects are shared with books/ios-swiftui
 - [hackingwithswift](https://www.hackingwithswift.com/books/ios-swiftui)
   - [github hackingwithswift](https://github.com/twostraws/hackingwithswift)
   - project based, select the project(s) that you find interesting
 - [www.hackingwithswift.com -- 100 days of swiftui](https://www.hackingwithswift.com/100/swiftui)
-
-## SwiftUI Example Repo
-
-- build to simulator and to your device
-
-<!-- - [03-About-Me](https://github.com/molab-itp/03-About-Me)
-
-  - [sample-apps/aboutme - tutorial](https://developer.apple.com/tutorials/sample-apps/aboutme)
-  - requires the latest version of the [Swift Playgrounds App](https://www.apple.com/swift/playgrounds/), runs on macOS and iPad
-  - extract source for Xcode using Finder option "Show Package Contents" -->
-
-- [03-ImageUiDemo-1-symbols](https://github.com/molab-itp/03-ImageUiDemo-1-symbols)
-  - Using Image systemName symbols to demonstrate SwiftUI
-
-- [03-ImageUiDemo-2-urls](https://github.com/molab-itp/03-ImageUiDemo-2-urls)
-  - Using NavigationView to create list of images references using URL
-
-- [03-Canvas-Explore](https://github.com/molab-itp/03-Canvas-Explore)
-  - explore SwiftUI Canvas and TimelineView for computed graphic animation
-
-- [03-ClockRemake](https://github.com/molab-itp/03-ClockRemake)
-  - Using Canvas to recreate the design used for the Clock app
-
-<!-- - [03-UIGraphics-View](https://github.com/molab-itp/03-UIGraphics-View) -->
-
-<!-- - [camera-app-with-swiftui-and-combine](https://www.kodeco.com/26244793-building-a-camera-app-with-swiftui-and-combine) -->
-
-<!-- - [2D Games Using SpriteKit, SwiftUI and Algorand blockchain](https://developer.algorand.org/tutorials/developing-2d-games-using-spritekit-and-swiftui-part-1/)
-!!@ Dead link
--->
+  - source: https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI
 
 ## Homework Week03
 
-Part 1.
+**Part 0. (Optional) exercises**
+
+- complete any of the TRY: exercises in
+- [00-molab-2026-jht](https://github.com/molab-itp/00-molab-2026-jht)
+- don't peek at solutions
+- work out solution on paper before entering code
+- avoid all use of AI, except to look up or explain documentation
+
+**Part 1.**
 
 - complete any missing work
-
 - continue exploring swift fundatmentals
-
 - update your wiki page with a description of how you approached learning swift fundatmentals and your weekly progress.
-
 - begin swiftui tutorials
-
-- create a single view SwiftUI app that produces image that is composed of some random elements
+  - pick a path thats best for you
+- create a multi view SwiftUI app that displays an image that is composed of random elements
   - similar to 10print in
   - [03-Canvas-Explore](https://github.com/molab-itp/03-Canvas-Explore)
-    <!-- - [01-UIRender-playground](https://github.com/molab-itp/01-UIRender-playground) -->
   - make use of arrays and random numbers
   - ok to run in simulator
-
 - add a link to your project stored in your Week03 folder on
   - [wiki home page week03](https://github.com/molab-itp/content-2026-ima/wiki#week-03-homework)
-
 - document your progress and questions on your wiki page
-
-Part 2. begin research on your final project
-
-- consult wwdc videos
-  - [wwdcnotes](https://wwdcnotes.com/documentation/wwdcnotes/)
-    - [Meet MapKit for SwiftUI](https://wwdcnotes.com/documentation/wwdcnotes/wwdc23-10043-meet-mapkit-for-swiftui)
-    - [What’s new in SwiftUI](https://wwdcnotes.com/documentation/wwdcnotes/wwdc23-10148-whats-new-in-swiftui)
-      <!-- - [Prototype with Xcode Playgrounds](https://www.wwdcnotes.com/notes/wwdc23/10250/) -->
-      <!-- - [SwiftUI Essentials](https://www.wwdcnotes.com/notes/wwdc19/216/) -->
-
-- [WWDC sample code](https://developer.apple.com/documentation/samplecode/)
-
-### Featured Prior Final Projects
-
-- Lydia Lin
-  - https://github.com/lydia-lll/ARProject_OperaBand
-  - https://lydia-lll.github.io/lydia_portfolio0/opera_face.html
-
-- Adam Jonah
-  - https://apps.apple.com/us/app/tutto-get-flirty/id6471154924
-    - tuttO - get flirty!
-  - https://apps.apple.com/us/app/big-signal-summon-help-1click/id6472224823
-    - BIG SIGNAL: SUMMON HELP 1CLICK
-
-### Swift Student Challenge
-
-- https://developer.apple.com/swift-student-challenge/
-  - offered yearly, starts feb 2027
-
-## AI and the future of iOS development !
-
-- [AI Disrupted My YouTube Business. So I Got a Job - 2026](https://www.youtube.com/watch?v=AQVyHXZWILo)
