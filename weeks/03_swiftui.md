@@ -74,15 +74,16 @@ remove duplicate
 - [apple documentation swiftui](https://developer.apple.com/documentation/swiftui/)
 - [swiftui/get-started](https://developer.apple.com/swiftui/get-started/)
 
-## State Counter App Build along
+## 03-Counts-UI App Build-Along
 
 - in class exercise
-- let build 03-counter-state
+- lets build 03-Counts-UI (will be added to repo later)
   - Intro to state management with @State
   - Example of using enums
 
 ## SwiftUI Example Repo
 
+**class example projects to read and study**
 **build to simulator and to your device**
 
 - [03-About-Me](https://github.com/molab-itp/03-About-Me)
