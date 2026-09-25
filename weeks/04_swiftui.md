@@ -6,6 +6,8 @@
 
 - lets build [03-Counts-UI](https://github.com/molab-itp/03-Counts-UI)
   - ShuffleFruitsView
+- [00-molab-2026-jht](https://github.com/molab-itp/00-molab-2026-jht)
+  - new: combo permutations
 - [03-closures-ints-strings](https://github.com/molab-itp/03-closures-ints-strings)
   - Dictionary/Array/Struct/Class
 - [Unwrap app](https://apps.apple.com/app/id1440611372)
