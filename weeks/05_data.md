@@ -2,37 +2,58 @@
 
 ## [[Previous](./04_swiftui.md)] [[Next](./06_data.md)]
 
-- [swiftui - documentation](https://developer.apple.com/documentation/swiftui)
-- [swiftui - state-and-data-flow](https://developer.apple.com/documentation/swiftui/state-and-data-flow)
-- [All SwiftUI property wrappers explained and compared](https://www.hackingwithswift.com/quick-start/swiftui/all-swiftui-property-wrappers-explained-and-compared)
-  Understanding "Source of Truth"
+## REVIEW TestFlight apps
 
+- upload at least one MoGallery photo
+- [98-MoGallery-Private](https://github.com/molab-itp/98-MoGallery-Private)
+  - share your iOS photos using Google Firebase
+  - [firebase firestore console](https://console.firebase.google.com/u/0/project/molab-485f5/firestore/databases/-default-/data/~2Fnamespaces~2Fmo-6)
+    - select gstore > mo-6
+  - request access to filestore console
+
+## REVIEW data modeling
+
+- [SwiftUI docs](https://developer.apple.com/documentation/swiftui)
+- [Model data docs](https://developer.apple.com/documentation/swiftui/model-data)
+  - Manage the data drive that drives your app interface.
+- [Managing user interface state docs](https://developer.apple.com/documentation/swiftui/managing-user-interface-state)
+  - Encapsulate view-specific data within your app’s view hierarchy to make your views reusable.
+- [data modeling example code](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app)
+  - DOWNLOAD ManagingModelDataSample
 - [https://github.com/molab-itp github](https://github.com/molab-itp)
+  - our class examples. look here first.
 
 ### Sensor tutorials
 
 - [bubblelevel - sensors](https://developer.apple.com/tutorials/sample-apps/bubblelevel?language=swift)
+  - displays the orientation of your device as numbers and as a graphical version of a bubble level
 - [seismometer - sensors](https://developer.apple.com/tutorials/sample-apps/seismometer?language=swift)
+  - shows how to display vibration information in two formats: a needle and a line graph
+  - NOTE: vintage ObservableObject in code, updated in class example
 
-## Examples Apps
-
-### Device Required
+## Running Example App Your Device
 
 - [05-BubbleLevel](https://github.com/molab-itp/05-BubbleLevel)
 - [05-Seismometer](https://github.com/molab-itp/05-Seismometer)
-
-### Preview in XCode
-
-- [05-AppStorageDemo](https://github.com/molab-itp/05-AppStorageDemo)
-- [05-ImageEditDemo](https://github.com/molab-itp/05-ImageEditDemo)
-- [05-Heart-Shapes](https://github.com/molab-itp/05-Heart-Shapes)
-- [05-TimerDemo](https://github.com/molab-itp/05-TimerDemo)
+  - Apple sample apps updated to current @Observable
+  - explore in preview
+  - run on device
 
 ## In class exercise
 
-- review researching using custom fonts
-  - [05-CustomFont](https://github.com/molab-itp/05-CustomFont)
-
+- Preview and explore in XCode
+- [05-TimerDemo](https://github.com/molab-itp/05-TimerDemo)
+  - Demonstration of tracking time
+  - Uses @Binding
+- [05-AppStorageDemo](https://github.com/molab-itp/05-AppStorageDemo)
+  - Using @AppStorage property wrapper for simple user data
+- [05-ImageEditDemo](https://github.com/molab-itp/05-ImageEditDemo)
+  - Creating and editing a list of images
+  - data stored in memory only. JSON example will store to file
+- [05-Heart-Shapes](https://github.com/molab-itp/05-Heart-Shapes)
+  - Learn how to use shapes and simple animations in SwiftUI.
+- [05-CustomFont](https://github.com/molab-itp/05-CustomFont)
+  - reseaching using custom fonts
 - build BasicNav
   - copy repo and use Page9 to start BasicNav [03-ImageUiDemo-1-symbols](https://github.com/molab-itp/03-ImageUiDemo-1-symbols)
   - add [03-UIGraphics-View](https://github.com/molab-itp/03-UIGraphics-View)
@@ -45,22 +66,52 @@
   - make use of office hours and/or coding lab
   - complete Swift Language Fundamentals
   - your wiki page should have at least one entry for each week summarizing the work done / challenges that you encountered for that week.
-  -
-
 - Part 2: incorporate one of the class demos into your navigation app
   - for example, add app storage to your naviation app
   - do this only if you are update on previous homework
-
 - create a Week05 folder for your project and add link to it here:
   - [wiki home page week05](https://github.com/molab-itp/content-2026-ima/wiki#week-05-homework)
-
   - update your wiki page with your
     - progress | problems | plans | questions
 
-## Final Project Inspiration and Resources
+## --
+
+**begin research on your final project**
+
+- what can you do only on your phone?
+
+- consult wwdc videos
+  - [wwdcnotes](https://wwdcnotes.com/documentation/wwdcnotes/)
+    - [Meet MapKit for SwiftUI](https://wwdcnotes.com/documentation/wwdcnotes/wwdc23-10043-meet-mapkit-for-swiftui)
+    - [What’s new in SwiftUI](https://wwdcnotes.com/documentation/wwdcnotes/wwdc23-10148-whats-new-in-swiftui)
+- [WWDC sample code](https://developer.apple.com/documentation/samplecode/)
+
+## Featured Prior Final Projects
+
+- Lydia Lin
+  - https://github.com/lydia-lll/ARProject_OperaBand
+  - https://lydia-lll.github.io/lydia_portfolio0/opera_face.html
+
+- Adam Jonah
+  - https://apps.apple.com/us/app/tutto-get-flirty/id6471154924
+    - tuttO - get flirty!
+  - https://apps.apple.com/us/app/big-signal-summon-help-1click/id6472224823
+    - BIG SIGNAL: SUMMON HELP 1CLICK
+
+## Swift Student Challenge
+
+- https://developer.apple.com/swift-student-challenge/
+  - offered yearly, starts feb 2027
+
+## AI and the future of iOS development !
+
+- [AI Disrupted My YouTube Business. So I Got a Job - 2026](https://www.youtube.com/watch?v=AQVyHXZWILo)
+
+<!-- ## Final Project Inspiration and Resources
 
 - [Augmented Hacking](https://electricsheepdream.notion.site/Augmented-Hacking-b5f033acc43e4820b081b57d211bf03a)
   - Sebastian Buys & Nien Lam
   - Augmented Hacking ITPG-GT 2356 1
   - [git repo](https://github.com/augmentedhacking)
   - [swift-cookbook](https://www.kodeco.com/books/swift-cookbook/v1.0)
+ -->
