@@ -10,6 +10,10 @@
   - [firebase firestore console](https://console.firebase.google.com/u/0/project/molab-485f5/firestore/databases/-default-/data/~2Fnamespaces~2Fmo-6)
     - select gstore > mo-6
   - request access to filestore console
+- [99-HO-States](https://github.com/molab-itp/99-HO-States)
+  - SwiftUI and React web app built with Claude AI
+  - workflow tracked in \_prompts.txt
+  - HO-States-Users: explore using Supabase as backend as alternative to Firebase
 
 ## REVIEW data modeling
 
@@ -31,7 +35,7 @@
   - shows how to display vibration information in two formats: a needle and a line graph
   - NOTE: vintage ObservableObject in code, updated in class example
 
-## Running Example App Your Device
+## Running Example App on Your Device
 
 - [05-BubbleLevel](https://github.com/molab-itp/05-BubbleLevel)
 - [05-Seismometer](https://github.com/molab-itp/05-Seismometer)
@@ -101,3 +105,19 @@
 
 - https://developer.apple.com/swift-student-challenge/
   - offered yearly, starts feb 2027
+
+## NYU Entrepreneur Centers
+
+- https://nyusternberkleycenter.com
+  - The Berkley Center for Entrepreneurship
+- https://entrepreneur.nyu.edu
+  - NYU Leslie Entrepreneurial Institute
+
+## Watch out
+
+- https://www.linkedin.com/posts/lilian-dammann_brought-to-you-by-the-people-from-cambridge-share-7510590001143975936-z6Lg
+  - Makers of MUSE: Brought to you by the people from Cambridge Analytica
+- https://lnkd.in/p/gV3Apcr7
+  - AI is going to kill us all
+- [we were warned by the Ancient Africans](https://m.jht1493.net/johnhenrythompson/heros/professor-john-fray/thoth.html)
+  - "...the parent or inventor of an art is not always the best judge of the utility or inutility of his own inventions to the users of them..."
