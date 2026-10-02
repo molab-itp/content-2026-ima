@@ -53,7 +53,7 @@
   - Using @AppStorage property wrapper for simple user data
 - [05-ImageEditDemo](https://github.com/molab-itp/05-ImageEditDemo)
   - Creating and editing a list of images
-  - data stored in memory only. JSON example will store to file
+  - data stored in memory only. next weeks JSON example will store to file
 - [05-Heart-Shapes](https://github.com/molab-itp/05-Heart-Shapes)
   - Learn how to use shapes and simple animations in SwiftUI.
 - [05-CustomFont](https://github.com/molab-itp/05-CustomFont)
