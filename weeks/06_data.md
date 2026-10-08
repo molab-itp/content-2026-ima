@@ -5,9 +5,15 @@
 ## Plan
 
 - review homework
-
 - break
-
+- App updates:
+- [98-MoGallery-Private](https://github.com/molab-itp/98-MoGallery-Private)
+  - share your iOS photos using Google Firebase
+- [99-HO-States](https://github.com/molab-itp/99-HO-States)
+  - SwiftUI and React web app built with Claude AI
+  - https://github.com/molab-itp/99-HO-States/tree/main/v2/HO-States-US
+  - https://github.com/molab-itp/99-HO-States/tree/main/v05
+  - https://github.com/molab-itp/99-HO-States/tree/main/v06
 - review demos
 
 ## SwiftUI Demos
@@ -27,10 +33,8 @@ Examples of using data, typically stored as JSON, to describe the navigational l
   - renaming and remixing Xcode project | recommended steps
   - [06-Router](https://github.com/molab-itp/06-Router)
     - Replaces NavigationView with Router @Observable class PageModel
-
 - explore Router used for simple game
   - [06-GuessTeacher](https://github.com/molab-itp/06-GuessTeacher)
-
 - build BasicNav
   - from Build from Page9 [03-ImageUiDemo-1-symbols](https://github.com/molab-itp/03-ImageUiDemo-1-symbols)
   - add [03-UIGraphics-View](https://github.com/molab-itp/03-UIGraphics-View)
@@ -39,11 +43,8 @@ Examples of using data, typically stored as JSON, to describe the navigational l
 ## Saving Data Demos
 
 - [05-ImageEditDemo](https://github.com/molab-itp/05-ImageEditDemo)
-
 - [06-ImageEditDemoJSON](https://github.com/molab-itp/06-ImageEditDemoJSON/)
-
 - [06-ChipsSaveJSON](https://github.com/molab-itp/06-ChipsSaveJSON)
-
 - [06-Voice-Recorder](https://github.com/molab-itp/06-Voice-Recorder)
   - [source repo](https://github.com/pinlunhuang/Voice-Recorder)
 - [10-SpeakUp](https://github.com/molab-itp/10-SpeakUp.git)
@@ -52,9 +53,11 @@ Examples of using data, typically stored as JSON, to describe the navigational l
 ## JSON saving and loading
 
 - [06-ImageEditDemoJSON](https://github.com/molab-itp/06-ImageEditDemoJSON)
-  - [use-codable-protocol-in-swift](https://www.kodeco.com/books/swift-cookbook/v1.0/chapters/4-use-codable-protocol-in-swift)
+  - https://www.hackingwithswift.com/swift/4.0/codable
+  - https://www.hackingwithswift.com/articles/119/codable-cheat-sheet
   - Generic functions in SaveLoadJSON.swift
   - Examine JSON file using Terminal App
+  - or Download Container from Xcode Devices & Simulators Window
 
 ## Evaluating open source resources
 
@@ -71,26 +74,24 @@ How to Make a Synth App for iOS with AudioKit | 100 Lines of Code
 
 https://github.com/NickCulbertson/100-Lines-of-Code-AudioKit-Examples
 >> Disable DunneSamplerExample
+// NavigationLink("6. Dunne Sampler Example", destination: DunneSamplerView())
+  remove Dunne ... package
+>> Check out Sequencer
 >> Check out AppleSamplerExample
 ```
 
 ### Animation
 
 - [animation repeatforever docs](<https://developer.apple.com/documentation/swiftui/animation/repeatforever(autoreverses:)>)
--
-- [phase and keyframe animators ](https://developer.apple.com/documentation/swiftui/controlling-the-timing-and-movements-of-your-animations)
--
-- [How to Pause and Resume Animation ](https://medium.com/@artemiusm/how-to-pause-and-resume-animation-in-swiftui-with-chaining-68003517449f)
+- [phase and keyframe animators](https://developer.apple.com/documentation/swiftui/controlling-the-timing-and-movements-of-your-animations)
+- [How to Pause and Resume Animation](https://medium.com/@artemiusm/how-to-pause-and-resume-animation-in-swiftui-with-chaining-68003517449f)
   - https://github.com/artemiusmk/MovieClapper
   - https://github.com/jht9629-nyu/MovieClapper
-
 - [airbnb lottie](https://airbnb.io/lottie/#/)
   - [github lottie ios](https://github.com/airbnb/lottie-ios)
 
 ```
-## animation,
-
->> !!@ it ain't easy
+## animation
 
 https://medium.com/@artemiusm/how-to-pause-and-resume-animation-in-swiftui-with-chaining-68003517449f
 https://github.com/artemiusmk/MovieClapper
@@ -126,33 +127,18 @@ Cinderella (Aschenputtel) —Lotte Reiniger, Karim Al-Zand
 
 ```
 
-### User Interface service(s)
-
-- [createwithplay.com](https://createwithplay.com/)
-
-```
-
-## createwithplay
-
-https://createwithplay.com/
-
-```
-
 ## Final Project Inspiration and Resources
 
 - [Hacking with iOS: SwiftUI Edition](https://www.hackingwithswift.com/books/ios-swiftui/)
   - [source repo](https://github.com/twostraws/HackingWithSwift)
     Follow steps to build app or start with completed app and study to adapt to your needs.
-
 - [Project 8: Moonshot](https://www.hackingwithswift.com/books/ios-swiftui/moonshot-introduction)
   "Teach users about space history with scroll views"
   "How can we compose smaller views into larger ones to help keep our project organized?"
   - [source repo sub directory](https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI/project8)
-
 - [Wiggles 🐶 app](https://github.com/molab-itp/06-Wiggles-iOS)
   "Beautiful Puppy adoption app built to Demonstrate the use of SwiftUI and MVVM Architecture."
   - [source repo](https://github.com/sameersyd/Wiggles-iOS)
-
 - [Clubapartment app](https://github.com/molab-itp/06-swiftui.builds)
   "building cool stuff with swiftui"
   - [source repo](https://github.com/FranckNdame/swiftui.builds)
@@ -162,22 +148,18 @@ https://createwithplay.com/
 Sample code is recommend starting point for exploring what's possible for a final project.
 Download and verify the sample works before investing your time in further research.
 
-- [WWDC sample code 2024](https://developer.apple.com/sample-code/wwdc/2024/)
+- [WWDC sample code 2026](https://developer.apple.com/documentation/samplecode//)
+  - scroll down for prior years
+  - [AVSpeechSynthesizer text-to-speech](https://github.com/molab-itp/content-2026-ima/wiki/13%E2%80%90Siksaka#week-4)
   - AVCam: Building a camera app
-- [WWDC sample code 2023](https://developer.apple.com/sample-code/wwdc/2023/)
-- [WWDC sample code 2022](https://developer.apple.com/sample-code/wwdc/2022/)
-- [WWDC sample code 2021](https://developer.apple.com/sample-code/wwdc/2021/)
-- [WWDC sample code 2020](https://developer.apple.com/sample-code/wwdc/2020/)
 
 ## Homework Week06
 
 - Part 1: continue working on past homework & swift fundamentals
-
 - Part 2: consider one of the options presented for saving data and add to your app
   - only attempt if your up to date with past work
-
 - create a Week06 folder for your project and add link to it here:
   - [wiki home page week06](https://github.com/molab-itp/content-2026-ima/wiki#week-06-homework)
-
   - update your wiki page with your
     - progress | problems | plans | questions
+    - can give summary in wiki and details in your blog
