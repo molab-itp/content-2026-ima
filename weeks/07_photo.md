@@ -96,7 +96,7 @@ git push
 - [augmented-reality realitykit](https://developer.apple.com/augmented-reality/realitykit/)
 - [augmented-reality object-capture/](https://developer.apple.com/augmented-reality/object-capture/)
 
-## [More Final Project Inspiration and Resources](https://github.com/molab-itp/content-2026-itp/blob/main/weeks/06_data.md#final-project-inspiration-and-resources)
+## [More Final Project Inspiration and Resources](https://github.com/molab-itp/content-2026-ima/blob/main/weeks/06_data.md#final-project-inspiration-and-resources)
 
 ## Homework Week07
 
@@ -104,7 +104,7 @@ git push
 - Part 2: create an app to access or manipulate photos
   - you can base it on one of the resources presented in class, adding your own twist
 - create a Week07 folder for your project and add link to it here:
-  - [wiki home page week07](https://github.com/molab-itp/content-2026-itp/wiki#week-07-homework)
+  - [wiki home page week07](https://github.com/molab-itp/content-2026-ima/wiki#week-07-homework)
   - update your wiki page with your weekly
     - progress | problems | plans | questions
 - Part 3: research final project
