@@ -13,6 +13,9 @@
 
 ## Github repo cleanup
 
+- signed into github.com
+- use Terminal
+
 ```
 # Add to .gitignore
 .DS_Store
