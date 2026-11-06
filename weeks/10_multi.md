@@ -4,8 +4,9 @@
 
 ## Plan
 
+- pair review final project draft proposal
 - questions
-- review homework
+- review homework and your workflow
 - summarize your challenges (and progress) on your wiki page
 - Final Project Discussion
 
