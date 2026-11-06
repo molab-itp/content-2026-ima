@@ -54,6 +54,9 @@
 - [98-MoGallery](https://github.com/molab-itp/98-MoGallery)
   - public repo, no GoogleService-Info.plist
   - must create your own [firebase project - a container for you app](https://firebase.google.com/)
+- [moPhoto-private](https://github.com/molab-itp/moPhoto-private)
+  - https://github.com/molab-itp/moPhoto-private/blob/main/moPhotoStore/_prompts.txt
+  - sync Photos lib to local filesystem
 
 ### Resources
 
