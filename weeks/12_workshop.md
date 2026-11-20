@@ -25,7 +25,7 @@
 - how will you track your project?
   - homework folder | new repo
   - note how and put a link in your wiki page
-- be prepared to present and discus
+- be prepared to present and discuss
 - in class we will
   - build your project
   - test your project
